@@ -10,6 +10,9 @@ To run the application locally, follow these steps:
 
 ```bash
 git clone https://github.com/abhisheksinghf/Employee-API-CRUD-API-s-Using-Node.js-and-MongoDB.git
+```
+Go to that directory
+```bash
 cd Employee-API-CRUD-API-s-Using-Node.js-and-MongoDB
 ```
 
