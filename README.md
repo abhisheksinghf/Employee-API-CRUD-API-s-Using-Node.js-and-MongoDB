@@ -43,6 +43,5 @@ The following API endpoints are available:
 ## Postman Collection
 
 A Postman collection is provided (`Employee-API.postman_collection.json`) with pre-configured requests for testing the API endpoints. Import the collection into Postman and execute the requests to interact with the API.
-```
 
 Please make sure to include the `Employee-API.postman_collection.json` file in your repository as mentioned in the README.md. Let me know if you need further assistance or if there's anything else I can help you with!
