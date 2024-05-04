@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "03ac68c6-cda6-4fe9-b60a-c5f866acf9c2",
+		"name": "Employee-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34705098"
+	},
+	"item": [
+		{
+			"name": "GET All Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/employees/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"employees",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Employee By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/employees/6635de8bfab1a1b24a46b79a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"employees",
+						"6635de8bfab1a1b24a46b79a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Employee By ID(Invalid)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/employees/6635de8bfab1aa46b79a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"employees",
+						"6635de8bfab1aa46b79a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Create Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"name\": \"Abhisheksingh\",\r\n    \"email\": \"abhishek@gmail.com\",\r\n    \"position\": \"Backend Engineer\",\r\n    \"department\": \"Engineering\",\r\n    \"salary\": 30000\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Update Employee",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"6635de8bfab1a1b24a46b79a\",\r\n    \"name\": \"Greme Smith\",\r\n    \"email\": \"greme@example.com\",\r\n    \"position\": \"Marketing Manager\",\r\n    \"department\": \"Marketing\",\r\n    \"salary\": 80000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/employees/6635de8bfab1a1b24a46b79a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"employees",
+						"6635de8bfab1a1b24a46b79a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Remove Employee",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/employees/66366bf547ce12b3e649207b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"employees",
+						"66366bf547ce12b3e649207b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
