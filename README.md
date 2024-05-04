@@ -1,4 +1,3 @@
-```markdown
 # Employee-API-CRUD-API-s-Using-Node.js-and-MongoDB
 
 This repository contains a backend application built with Node.js and MongoDB for managing employees. It provides CRUD (Create, Read, Update, Delete) API endpoints for interacting with employee data.
